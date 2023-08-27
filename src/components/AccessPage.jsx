@@ -4,7 +4,7 @@ import Form from "react-bootstrap/Form";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Context from "../context/Context";
-import { useContext, useEffect, useState } from "react";
+import { useContext, useEffect, useRef, useState } from "react";
 
 function AccessPage() {
   const {
@@ -17,6 +17,7 @@ function AccessPage() {
   } = useContext(Context);
 
   const [name, setName] = useState("");
+  const inputRef = useRef() 
 
 
   async function loadData() {
@@ -37,6 +38,8 @@ function AccessPage() {
   function handleClick() {
     loadData();
     setShowData(true);
+    const input = inputRef.current
+    input.select()
   }
 
   function handleSubmit(e) {
@@ -57,6 +60,7 @@ function AccessPage() {
             <Form.Group controlId="exampleForm.ControlInput1">
               <Form.Label>Digite su cédula:</Form.Label>
               <Form.Control
+                ref={inputRef}
                 type="number"
                 placeholder="109990111"
                 onChange={(e) => setId(e.target.value)}

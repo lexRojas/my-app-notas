@@ -1,0 +1,6 @@
+export const SET_SHOW = 'SET_SHOW'
+export const SET_ID = 'SET_ID'
+export const SET_MATERIA = 'SET_MATERIA'
+export const GET_NOTAS = 'GET_NOTAS'
+export const GET_ESTUDIANTE = 'GET_ESTUDIANTE'
+export const SET_NOTA_TOTAL = 'SET_NOTA_TOTAL'

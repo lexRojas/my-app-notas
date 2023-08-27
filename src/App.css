@@ -1,0 +1,36 @@
+.fondo {
+  background-color: rgb(73, 61, 143);
+}
+
+.fondo-form {
+  background-color: rgb(236, 236, 215);
+  border-radius: 1rem;
+  margin-top: 1rem;
+}
+
+.fondo-form-title {
+  background-color: rgb(250, 250, 43);
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  padding: 0.5rem;
+  font-weight: bold;
+  text-align: center;
+  
+  
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.tarjeta-aprobado{
+  background-color: rgb(77, 255, 7);
+  font-weight: 500;
+}
+
+.tarjeta-reprobado{
+  background-color: rgb(255, 22, 22);
+  color:white;
+  font-weight: 500;
+}

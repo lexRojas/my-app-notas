@@ -16,15 +16,11 @@ function NavBar() {
             <Nav.Link href="#home">Vistas</Nav.Link>
             <Nav.Link href="#link">Sobre App</Nav.Link>
             <Nav.Link href="#action/3.2">Seguridad</Nav.Link>
-            <NavDropdown title="Acciones" id="basic-nav-dropdown">
-              
-              
               <NavDropdown title="Catálogos" id="basic-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Estudiantes</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.1">Materias</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.1">Periodos</NavDropdown.Item>
               </NavDropdown>
-            </NavDropdown>
           </Nav>
         </Navbar.Collapse>
       </Container>

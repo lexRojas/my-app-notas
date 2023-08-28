@@ -51,7 +51,7 @@ function AccessPage() {
       <Row>
         <Col className="fondo-form-title">
           <p>CTTP - Las Palmitas</p>
-          <p> STN 2023 v1.1</p>
+          <p> STN 2023 v2.1</p>
         </Col>
       </Row>
       <Row>

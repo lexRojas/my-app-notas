@@ -6,7 +6,6 @@ import Col from "react-bootstrap/Col";
 import TablaValores from "./components/TablaValores";
 import UseState from "./context/UseState";
 import Tarjeta from "./components/Tarjeta";
-import FormMateria from "./components/FormMateria";
 import NavBar from "./components/NavBar";
 
 function App() {
@@ -17,7 +16,6 @@ function App() {
         <Row className="p-1 justify-content-center">
           <Col md={3}>
             <AccessPage />
-            <FormMateria />
           </Col>
         </Row>
         <Row>

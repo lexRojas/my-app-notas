@@ -15,8 +15,9 @@ function NavBar() {
           <Nav className="me-auto">
             <Nav.Link href="#home">Vistas</Nav.Link>
             <Nav.Link href="#link">Sobre App</Nav.Link>
+            <Nav.Link href="#action/3.2">Seguridad</Nav.Link>
             <NavDropdown title="Acciones" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.2">Seguridad</NavDropdown.Item>
+              
               
               <NavDropdown title="Catálogos" id="basic-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Estudiantes</NavDropdown.Item>
